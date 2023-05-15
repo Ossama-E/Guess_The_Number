@@ -133,9 +133,11 @@ h1 {
   position: fixed;
   bottom: 10px;
   left: 50%;
+  color: #333;
   transform: translateX(-50%);
-  /* background-color: #eee; */
+  background-color: #eee;
   padding: 10px;
+  border: #eee 3px solid;
   border-radius: 4px;
 }
 
@@ -145,4 +147,5 @@ h1 {
 
 .hint:hover {
   color: lightblue;
+  background-color: #333;
 }

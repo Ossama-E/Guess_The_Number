@@ -61,10 +61,8 @@ const game = function () {
     hint.textContent = foundHint;
     hint.style.position = 'fixed';
     hint.style.bottom = '10px';
-    hint.style.left = '15%';
+    hint.style.left = '35vw';
     hint.style.transform = 'translateX(-50%)';
-    hint.style.padding = '10px';
-    hint.style.borderRadius = '4px';
     document.body.appendChild(hint);
 
     // Apply animation class
