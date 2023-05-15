@@ -1,5 +1,4 @@
 'use strict';
-
 // Function for the game
 const game = function () {
   // Generate a random number between 1 and 20
@@ -25,6 +24,9 @@ const game = function () {
     { hint: 'The number is greater than 10.', condition: num => num > 10 },
   ];
   hintBtn.style.display = 'block';
+  messageEl.textContent = 'Start guessing...';
+  numberEl.textContent = '?';
+  numberEl.style.color = '#222';
 
   // Initialize the score
   let highScore = 0;
